@@ -1,13 +1,17 @@
 <!doctype html>
-<html>
+<html lang="nl">
   <head>
     <meta charset="utf-8" />
-    <title>CMS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Site-beheer</title>
+
+    <!-- Static CMS app (voorheen Netlify CMS) -->
     <script src="https://unpkg.com/@staticcms/app@^3/dist/static-cms-app.js"></script>
   </head>
   <body>
     <script>
-      CMS.init(); // start de app
+      // Start de CMS-applicatie; hij leest automatisch admin/config.yml
+      CMS.init();
     </script>
   </body>
 </html>
