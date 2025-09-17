@@ -1,8 +1,8 @@
 backend:
   name: github
-  repo: GEBRUIKER/REPO          # vervang met je eigen gebruiker/naam
-  branch: main                  # of gh-pages, afhankelijk van je setup
-  base_url: https://api.staticcms.org  # proxy voor GitHub OAuth
+  repo: evilskunk-hub/cyborgdolfijn
+  branch: main
+  base_url: https://api.staticcms.org
 
 media_folder: "images/uploads"  # waar geüploade afbeeldingen komen
 public_folder: "/images/uploads"
