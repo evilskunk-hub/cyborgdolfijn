@@ -2,7 +2,6 @@ backend:
   name: github
   repo: evilskunk-hub/cyborgdolfijn
   branch: main
-  base_url: https://api.staticcms.org
 
 media_folder: "images/uploads"  # waar geüploade afbeeldingen komen
 public_folder: "/images/uploads"
