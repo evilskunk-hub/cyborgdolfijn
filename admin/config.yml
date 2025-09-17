@@ -1,0 +1,18 @@
+backend:
+  name: github
+  repo:  evilskunk-hub/cyborgdolfijn           # <-- vervang met je eigen GitHub-gebruiker en repo
+  branch: main                  # of gh-pages, afhankelijk van je Pages-instelling
+
+media_folder: "images/uploads"   # waar geüploade afbeeldingen in de repo komen
+public_folder: "/images/uploads" # hoe ze publiek bereikbaar zijn
+
+collections:
+  - name: "blog"
+    label: "Blog"
+    folder: "content/blog"      # map in de repo voor de markdown-bestanden
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Titel", name: "title", widget: "string" }
+      - { label: "Datum", name: "date", widget: "datetime" }
+      - { label: "Inhoud", name: "body", widget: "markdown" }
